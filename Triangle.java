@@ -12,7 +12,7 @@ public class Triangle {
 		//checks wether the sum of any two variables is greater than the third and assigns it to bool isTriangle
 		boolean isTriangle = false;
 		isTriangle	= ( a + b > c && a + c > b && b + c > a);
-		//prints wether it's a triangle or not
-		System.out.println(isTriangle);
+		//prints the numbers generated and wether it's a triangle or not
+		System.out.println(a+", "+b+", "+c+": "+isTriangle);
 	}
 }
